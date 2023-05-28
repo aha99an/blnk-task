@@ -14,13 +14,13 @@ For backend :
 
 #
 1. Change to the project directory:
-2. Build or rebuild docker services
+2. Build or rebuild docker services: 
 docker-compose build
-3. run an entire app
+3. run an entire app: 
 docker-compose up
-4. To create superuser
+4. To create superuser: 
 docker-compose run --rm django python3 manage.py createsuperuser
-5. To create three different users: provider, customer and banker 
+5. To create three different users: provider, customer and banker:  
 docker-compose run --rm django python3 manage.py create_default_users_and_groups
 the users are
 username: "banker"
