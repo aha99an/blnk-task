@@ -21,7 +21,7 @@ docker-compose up
 4. To create superuser
 docker-compose run --rm django python3 manage.py createsuperuser
 5. To create three different users: provider, customer and banker 
-docker-compose run --rm django python3 create_default_users_and_groups
+docker-compose run --rm django python3 manage.py create_default_users_and_groups
 the users are
 username: "banker"
 password: "Ahmed1153"
